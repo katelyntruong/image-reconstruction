@@ -1,0 +1,3 @@
+In this project, we will reconstruct an image that has been compressed by retaining only a small fraction of its pixels. We are given a data set MysteryImage.mat containing matrices rows, cols, and vals corresponding to the row-column information of pixels and and the RGB values of pixels. The data only represents only 0.4% of the full image. Our goal is to find out what the mystery image represent based on the current dataset.
+
+We will use the method Tree Regression to approximate the true image. The final approximate image consists of intervals with RBG values determined by the Regression Tree algorithm. Each pixel of the image will be classified into intervals where we will assign them with the three mean values of RGB coordinates. 
